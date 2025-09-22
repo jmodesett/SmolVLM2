@@ -1,0 +1,70 @@
+{
+  "video_path": "/Users/jackmodesett/Downloads/chest workout.mov",
+  "analysis_type": "five_unique_exercises",
+  "total_duration_seconds": 1128.2033333333334,
+  "target_exercise_count": 5,
+  "exercises_found": 5,
+  "system_prompt": "\n        You are analyzing a workout video to identify distinct exercise types. \n        Focus on identifying when one exercise completely ends and a new one begins.\n        Look for clear transitions between different movement patterns.\n        Ignore small rest periods within the same exercise type.\n        ",
+  "user_prompt": "Identify exactly 5 distinct exercises in this workout video with clear start and end points.",
+  "five_exercises": [
+    {
+      "exercise_number": 1,
+      "exercise_name": "Bench",
+      "start_timestamp": 0.0,
+      "end_timestamp": 138.0,
+      "duration": 138.0,
+      "timestamp_formatted": "00:00 - 02:18",
+      "description": "Squats, bench press, deadlift, pull-ups, rows, and leg press....",
+      "segment_count": 3,
+      "movement_phases": []
+    },
+    {
+      "exercise_number": 2,
+      "exercise_name": "Press",
+      "start_timestamp": 27.0,
+      "end_timestamp": 57.0,
+      "duration": 30.0,
+      "timestamp_formatted": "00:27 - 00:57",
+      "description": "The 5 distinct exercises are: 1. 2. 3. 4. 5. Upper chest exercises, chest presses, and lat pulldowns....",
+      "segment_count": 1,
+      "movement_phases": []
+    },
+    {
+      "exercise_number": 3,
+      "exercise_name": "Curl",
+      "start_timestamp": 135.0,
+      "end_timestamp": 219.0,
+      "duration": 84.0,
+      "timestamp_formatted": "02:15 - 03:39",
+      "description": "1. Burpees, 2. Lateral Raises, 3. Bicep Curls, 4. Lat Pulldowns, 5. Tricep Pushdowns....",
+      "segment_count": 2,
+      "movement_phases": []
+    },
+    {
+      "exercise_number": 4,
+      "exercise_name": "Bench",
+      "start_timestamp": 216.0,
+      "end_timestamp": 1128.2,
+      "duration": 912.2,
+      "timestamp_formatted": "03:36 - 18:48",
+      "description": "1. The Camber Bars Bench Press (start and end points: chest and shoulders) 2. The Hammer Pulldown (start and end points: chest and shoulders) 3. The Barbell Press (start and end points: chest and shou...",
+      "segment_count": 22,
+      "movement_phases": []
+    },
+    {
+      "exercise_number": 5,
+      "exercise_name": "Squat",
+      "start_timestamp": 945.0,
+      "end_timestamp": 1083.0,
+      "duration": 138.0,
+      "timestamp_formatted": "15:45 - 18:03",
+      "description": "Squat, deadlift, chest press, tricep extension, tricep extension, tricep extensions....",
+      "segment_count": 3,
+      "movement_phases": []
+    }
+  ],
+  "summary": {
+    "video_duration_formatted": "18:48",
+    "exercise_coverage": "115.4% (21:42 of 18:48)"
+  }
+}

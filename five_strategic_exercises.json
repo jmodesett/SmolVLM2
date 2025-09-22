@@ -1,0 +1,76 @@
+{
+  "video_path": "/Users/jackmodesett/Downloads/chest workout.mov",
+  "analysis_type": "five_strategic_exercises",
+  "total_duration_seconds": 1128.2033333333334,
+  "sampling_strategy": "strategic_time_points",
+  "sample_points": [
+    60.0,
+    312.05083333333334,
+    564.1016666666667,
+    816.1525,
+    1068.2033333333334
+  ],
+  "exercises_found": 5,
+  "five_exercises": [
+    {
+      "exercise_number": 1,
+      "exercise_name": "Chest Fly",
+      "start_timestamp": 0,
+      "end_timestamp": 120.0,
+      "duration": 120.0,
+      "timestamp_formatted": "00:00 - 02:00",
+      "description": "The main exercise being performed is the dumbbell flye, with the person demonstrating the proper form and executing the move.",
+      "analysis_success": true,
+      "segment_path": "/var/folders/bs/n0jwknjj04j4rbw51zkgxmzh0000gn/T/smolvlm_highlights_jjhbk81x/exercise_1_0-120s.mp4"
+    },
+    {
+      "exercise_number": 2,
+      "exercise_name": "Squats",
+      "start_timestamp": 252.05083333333334,
+      "end_timestamp": 372.05083333333334,
+      "duration": 120.0,
+      "timestamp_formatted": "04:12 - 06:12",
+      "description": "The main exercise being performed is a barbell squat, with an intense and focused atmosphere. The person is dressed in a black shirt and gray pants, performing a barbell squat while supporting their own weight with their hands.",
+      "analysis_success": true,
+      "segment_path": "/var/folders/bs/n0jwknjj04j4rbw51zkgxmzh0000gn/T/smolvlm_highlights_jjhbk81x/exercise_2_252-372s.mp4"
+    },
+    {
+      "exercise_number": 3,
+      "exercise_name": "Bench Press",
+      "start_timestamp": 504.1016666666667,
+      "end_timestamp": 624.1016666666667,
+      "duration": 120.0,
+      "timestamp_formatted": "08:24 - 10:24",
+      "description": "Incline barbell bench press.",
+      "analysis_success": true,
+      "segment_path": "/var/folders/bs/n0jwknjj04j4rbw51zkgxmzh0000gn/T/smolvlm_highlights_jjhbk81x/exercise_3_504-624s.mp4"
+    },
+    {
+      "exercise_number": 4,
+      "exercise_name": "Push-Ups",
+      "start_timestamp": 756.1525,
+      "end_timestamp": 876.1525,
+      "duration": 120.0,
+      "timestamp_formatted": "12:36 - 14:36",
+      "description": "The main exercise being performed is a prone push-up with an overhand grip. The person lifts their body towards the ceiling while maintaining a neutral back position, then returns to the starting position with hands on the ground. The video shows the person performing this exercise, with the background featuring various exercise equipment and a dark gym setting.",
+      "analysis_success": true,
+      "segment_path": "/var/folders/bs/n0jwknjj04j4rbw51zkgxmzh0000gn/T/smolvlm_highlights_jjhbk81x/exercise_4_756-876s.mp4"
+    },
+    {
+      "exercise_number": 5,
+      "exercise_name": "Bench Press",
+      "start_timestamp": 1008.2033333333334,
+      "end_timestamp": 1128.2033333333334,
+      "duration": 120.0,
+      "timestamp_formatted": "16:48 - 18:48",
+      "description": "The main exercise being performed is the bench press, where the individual lifts the barbell with their arms extended overhead.",
+      "analysis_success": true,
+      "segment_path": "/var/folders/bs/n0jwknjj04j4rbw51zkgxmzh0000gn/T/smolvlm_highlights_jjhbk81x/exercise_5_1008-1128s.mp4"
+    }
+  ],
+  "summary": {
+    "video_duration_formatted": "18:48",
+    "total_exercise_time": 600.0,
+    "average_exercise_duration": 120.0
+  }
+}

@@ -1,0 +1,755 @@
+{
+  "video_path": "/Users/jackmodesett/Downloads/chest workout.mov",
+  "analysis_type": "workout_with_timestamps",
+  "processing_time_seconds": 207.2365801334381,
+  "total_duration_seconds": 1128.2033333333334,
+  "fps": 33.384939476040074,
+  "total_segments_analyzed": 42,
+  "system_prompt": "\n        You are analyzing a workout video to identify distinct exercise types. \n        Focus on identifying when one exercise completely ends and a new one begins.\n        Look for clear transitions between different movement patterns.\n        Ignore small rest periods within the same exercise type.\n        ",
+  "user_prompt": "Identify exactly 5 distinct exercises in this workout video with clear start and end points.",
+  "segment_analyses": [
+    {
+      "segment_path": "/var/folders/bs/n0jwknjj04j4rbw51zkgxmzh0000gn/T/smolvlm_highlights_b1pjzb7x/segment_000_0.0-30.0s.mp4",
+      "response": "Squats, bench press, deadlift, pull-ups, rows, and leg press.",
+      "exercise_name": "Bench",
+      "movement_phase": "Unknown Phase",
+      "is_transition": false,
+      "analysis_success": true,
+      "start_timestamp": 0.0,
+      "end_timestamp": 30.0,
+      "duration": 30.0,
+      "timestamp_formatted": "00:00 - 00:30"
+    },
+    {
+      "segment_path": "/var/folders/bs/n0jwknjj04j4rbw51zkgxmzh0000gn/T/smolvlm_highlights_b1pjzb7x/segment_001_27.0-57.0s.mp4",
+      "response": "The 5 distinct exercises are: 1. 2. 3. 4. 5. Upper chest exercises, chest presses, and lat pulldowns.",
+      "exercise_name": "Press",
+      "movement_phase": "Unknown Phase",
+      "is_transition": false,
+      "analysis_success": true,
+      "start_timestamp": 27.0,
+      "end_timestamp": 57.0,
+      "duration": 30.0,
+      "timestamp_formatted": "00:27 - 00:57"
+    },
+    {
+      "segment_path": "/var/folders/bs/n0jwknjj04j4rbw51zkgxmzh0000gn/T/smolvlm_highlights_b1pjzb7x/segment_002_54.0-84.0s.mp4",
+      "response": "Squats, deadlifts, bench press, rows, shoulder press.",
+      "exercise_name": "Bench",
+      "movement_phase": "Unknown Phase",
+      "is_transition": false,
+      "analysis_success": true,
+      "start_timestamp": 54.0,
+      "end_timestamp": 84.0,
+      "duration": 30.0,
+      "timestamp_formatted": "00:54 - 01:24"
+    },
+    {
+      "segment_path": "/var/folders/bs/n0jwknjj04j4rbw51zkgxmzh0000gn/T/smolvlm_highlights_b1pjzb7x/segment_003_81.0-111.0s.mp4",
+      "response": "Dumbbell Flys, Dumbbell Flys, Tricep Pushdowns, Tricep Pushdowns, Tricep Pushdowns, Tricep Pushdowns, Tricep Pushdowns, Tricep Pushdowns, Tricep Pushdowns, Tricep Pushdowns, Tricep Pushdowns, Tricep Pushdowns, Tricep Pushdowns, Tricep Pushdowns, Tricep Pushdowns, Tricep Pushdowns, Tricep Pushdowns, Tricep Pushdowns, Tricep Pushdowns, Tricep Push",
+      "exercise_name": "Fly",
+      "movement_phase": "Unknown Phase",
+      "is_transition": false,
+      "analysis_success": true,
+      "start_timestamp": 81.0,
+      "end_timestamp": 111.0,
+      "duration": 30.0,
+      "timestamp_formatted": "01:21 - 01:51"
+    },
+    {
+      "segment_path": "/var/folders/bs/n0jwknjj04j4rbw51zkgxmzh0000gn/T/smolvlm_highlights_b1pjzb7x/segment_004_108.0-138.0s.mp4",
+      "response": "Squat, bench press, leg press, deadlift, and overhead press.",
+      "exercise_name": "Bench",
+      "movement_phase": "Unknown Phase",
+      "is_transition": false,
+      "analysis_success": true,
+      "start_timestamp": 108.0,
+      "end_timestamp": 138.0,
+      "duration": 30.0,
+      "timestamp_formatted": "01:48 - 02:18"
+    },
+    {
+      "segment_path": "/var/folders/bs/n0jwknjj04j4rbw51zkgxmzh0000gn/T/smolvlm_highlights_b1pjzb7x/segment_005_135.0-165.0s.mp4",
+      "response": "Plank, Lat Pulldowns, Tricep Pushdowns, Hammer Curls, and Barbell Curls.",
+      "exercise_name": "Curl",
+      "movement_phase": "Unknown Phase",
+      "is_transition": false,
+      "analysis_success": true,
+      "start_timestamp": 135.0,
+      "end_timestamp": 165.0,
+      "duration": 30.0,
+      "timestamp_formatted": "02:15 - 02:45"
+    },
+    {
+      "segment_path": "/var/folders/bs/n0jwknjj04j4rbw51zkgxmzh0000gn/T/smolvlm_highlights_b1pjzb7x/segment_006_162.0-192.0s.mp4",
+      "response": "\"FORM CUESE\" with a lower back, \"Lever Shoulder\" with a lower back, \"Arch Lower Back\" with a lower back, \"Elbows Just Sweep\" with a lower back, and \"Warm-up\" with a lower back.",
+      "exercise_name": "Unknown Exercise",
+      "movement_phase": "Unknown Phase",
+      "is_transition": false,
+      "analysis_success": true,
+      "start_timestamp": 162.0,
+      "end_timestamp": 192.0,
+      "duration": 30.0,
+      "timestamp_formatted": "02:42 - 03:12"
+    },
+    {
+      "segment_path": "/var/folders/bs/n0jwknjj04j4rbw51zkgxmzh0000gn/T/smolvlm_highlights_b1pjzb7x/segment_007_189.0-219.0s.mp4",
+      "response": "1. Burpees, 2. Lateral Raises, 3. Bicep Curls, 4. Lat Pulldowns, 5. Tricep Pushdowns.",
+      "exercise_name": "Curl",
+      "movement_phase": "Unknown Phase",
+      "is_transition": false,
+      "analysis_success": true,
+      "start_timestamp": 189.0,
+      "end_timestamp": 219.0,
+      "duration": 30.0,
+      "timestamp_formatted": "03:09 - 03:39"
+    },
+    {
+      "segment_path": "/var/folders/bs/n0jwknjj04j4rbw51zkgxmzh0000gn/T/smolvlm_highlights_b1pjzb7x/segment_008_216.0-246.0s.mp4",
+      "response": "Squat, deadlift, pull-up, bench press, pull-up, leg press.",
+      "exercise_name": "Bench",
+      "movement_phase": "Unknown Phase",
+      "is_transition": false,
+      "analysis_success": true,
+      "start_timestamp": 216.0,
+      "end_timestamp": 246.0,
+      "duration": 30.0,
+      "timestamp_formatted": "03:36 - 04:06"
+    },
+    {
+      "segment_path": "/var/folders/bs/n0jwknjj04j4rbw51zkgxmzh0000gn/T/smolvlm_highlights_b1pjzb7x/segment_009_243.0-273.0s.mp4",
+      "response": "Plank, bench press, side planks, tricep extensions, and bicep curls.",
+      "exercise_name": "Bench",
+      "movement_phase": "Unknown Phase",
+      "is_transition": false,
+      "analysis_success": true,
+      "start_timestamp": 243.0,
+      "end_timestamp": 273.0,
+      "duration": 30.0,
+      "timestamp_formatted": "04:03 - 04:33"
+    },
+    {
+      "segment_path": "/var/folders/bs/n0jwknjj04j4rbw51zkgxmzh0000gn/T/smolvlm_highlights_b1pjzb7x/segment_010_270.0-300.0s.mp4",
+      "response": "1. The Camber Bars Bench Press (start and end points: chest and shoulders) 2. The Hammer Pulldown (start and end points: chest and shoulders) 3. The Barbell Press (start and end points: chest and shoulders) 4. The Overhead Dumbbell Press (start and end points: chest and shoulders) 5. The Barbell Kettlebell Pull-Up (start and end points: chest and shoulders)",
+      "exercise_name": "Bench",
+      "movement_phase": "Unknown Phase",
+      "is_transition": false,
+      "analysis_success": true,
+      "start_timestamp": 270.0,
+      "end_timestamp": 300.0,
+      "duration": 30.0,
+      "timestamp_formatted": "04:30 - 05:00"
+    },
+    {
+      "segment_path": "/var/folders/bs/n0jwknjj04j4rbw51zkgxmzh0000gn/T/smolvlm_highlights_b1pjzb7x/segment_011_297.0-327.0s.mp4",
+      "response": "Plank, Squats, Deadlifts, Bench Press, and Dumbbell Press.",
+      "exercise_name": "Bench",
+      "movement_phase": "Unknown Phase",
+      "is_transition": false,
+      "analysis_success": true,
+      "start_timestamp": 297.0,
+      "end_timestamp": 327.0,
+      "duration": 30.0,
+      "timestamp_formatted": "04:57 - 05:27"
+    },
+    {
+      "segment_path": "/var/folders/bs/n0jwknjj04j4rbw51zkgxmzh0000gn/T/smolvlm_highlights_b1pjzb7x/segment_012_324.0-354.0s.mp4",
+      "response": "Lunges, tricep extensions, bicep curls, pull-ups, and leg press.",
+      "exercise_name": "Curl",
+      "movement_phase": "Unknown Phase",
+      "is_transition": false,
+      "analysis_success": true,
+      "start_timestamp": 324.0,
+      "end_timestamp": 354.0,
+      "duration": 30.0,
+      "timestamp_formatted": "05:24 - 05:54"
+    },
+    {
+      "segment_path": "/var/folders/bs/n0jwknjj04j4rbw51zkgxmzh0000gn/T/smolvlm_highlights_b1pjzb7x/segment_013_351.0-381.0s.mp4",
+      "response": "Dumbbell rows, bench press, leg press, leg press, leg press, and leg press.",
+      "exercise_name": "Bench",
+      "movement_phase": "Unknown Phase",
+      "is_transition": false,
+      "analysis_success": true,
+      "start_timestamp": 351.0,
+      "end_timestamp": 381.0,
+      "duration": 30.0,
+      "timestamp_formatted": "05:51 - 06:21"
+    },
+    {
+      "segment_path": "/var/folders/bs/n0jwknjj04j4rbw51zkgxmzh0000gn/T/smolvlm_highlights_b1pjzb7x/segment_014_378.0-408.0s.mp4",
+      "response": "Chin up, PRs, back extensions, bench press, deadlift",
+      "exercise_name": "Bench",
+      "movement_phase": "Unknown Phase",
+      "is_transition": false,
+      "analysis_success": true,
+      "start_timestamp": 378.0,
+      "end_timestamp": 408.0,
+      "duration": 30.0,
+      "timestamp_formatted": "06:18 - 06:48"
+    },
+    {
+      "segment_path": "/var/folders/bs/n0jwknjj04j4rbw51zkgxmzh0000gn/T/smolvlm_highlights_b1pjzb7x/segment_015_405.0-435.0s.mp4",
+      "response": "Bench press, deadlift, pull-up, squat, rows.",
+      "exercise_name": "Bench",
+      "movement_phase": "Unknown Phase",
+      "is_transition": false,
+      "analysis_success": true,
+      "start_timestamp": 405.0,
+      "end_timestamp": 435.0,
+      "duration": 30.0,
+      "timestamp_formatted": "06:45 - 07:15"
+    },
+    {
+      "segment_path": "/var/folders/bs/n0jwknjj04j4rbw51zkgxmzh0000gn/T/smolvlm_highlights_b1pjzb7x/segment_016_432.0-462.0s.mp4",
+      "response": "Calf raise, bicep curl, deadlift, bench press, and pull-up.",
+      "exercise_name": "Bench",
+      "movement_phase": "Unknown Phase",
+      "is_transition": false,
+      "analysis_success": true,
+      "start_timestamp": 432.0,
+      "end_timestamp": 462.0,
+      "duration": 30.0,
+      "timestamp_formatted": "07:12 - 07:42"
+    },
+    {
+      "segment_path": "/var/folders/bs/n0jwknjj04j4rbw51zkgxmzh0000gn/T/smolvlm_highlights_b1pjzb7x/segment_017_459.0-489.0s.mp4",
+      "response": "1. Bicep curl, 2. Lateral raise, 3. Dumbbell shoulder press, 4. Bicep curl, 5. Leg press.",
+      "exercise_name": "Curl",
+      "movement_phase": "Unknown Phase",
+      "is_transition": false,
+      "analysis_success": true,
+      "start_timestamp": 459.0,
+      "end_timestamp": 489.0,
+      "duration": 30.0,
+      "timestamp_formatted": "07:39 - 08:09"
+    },
+    {
+      "segment_path": "/var/folders/bs/n0jwknjj04j4rbw51zkgxmzh0000gn/T/smolvlm_highlights_b1pjzb7x/segment_018_486.0-516.0s.mp4",
+      "response": "Planks, lat pulldowns, deadlifts, deadlifts, and bench press.",
+      "exercise_name": "Bench",
+      "movement_phase": "Unknown Phase",
+      "is_transition": false,
+      "analysis_success": true,
+      "start_timestamp": 486.0,
+      "end_timestamp": 516.0,
+      "duration": 30.0,
+      "timestamp_formatted": "08:06 - 08:36"
+    },
+    {
+      "segment_path": "/var/folders/bs/n0jwknjj04j4rbw51zkgxmzh0000gn/T/smolvlm_highlights_b1pjzb7x/segment_019_513.0-543.0s.mp4",
+      "response": "1. Deadlift, 2. Plank, 3. Side raise, 4. Bent-over row, 5. Pull-up.",
+      "exercise_name": "Deadlift",
+      "movement_phase": "Unknown Phase",
+      "is_transition": false,
+      "analysis_success": true,
+      "start_timestamp": 513.0,
+      "end_timestamp": 543.0,
+      "duration": 30.0,
+      "timestamp_formatted": "08:33 - 09:03"
+    },
+    {
+      "segment_path": "/var/folders/bs/n0jwknjj04j4rbw51zkgxmzh0000gn/T/smolvlm_highlights_b1pjzb7x/segment_020_540.0-570.0s.mp4",
+      "response": "Overhead tricep extensions, incline bench press, pull-through presses, chest press, and deadlifts.",
+      "exercise_name": "Bench",
+      "movement_phase": "Unknown Phase",
+      "is_transition": false,
+      "analysis_success": true,
+      "start_timestamp": 540.0,
+      "end_timestamp": 570.0,
+      "duration": 30.0,
+      "timestamp_formatted": "09:00 - 09:30"
+    },
+    {
+      "segment_path": "/var/folders/bs/n0jwknjj04j4rbw51zkgxmzh0000gn/T/smolvlm_highlights_b1pjzb7x/segment_021_567.0-597.0s.mp4",
+      "response": "Bench press, leg press, seated rows, leg press, and squats.",
+      "exercise_name": "Bench",
+      "movement_phase": "Unknown Phase",
+      "is_transition": false,
+      "analysis_success": true,
+      "start_timestamp": 567.0,
+      "end_timestamp": 597.0,
+      "duration": 30.0,
+      "timestamp_formatted": "09:27 - 09:57"
+    },
+    {
+      "segment_path": "/var/folders/bs/n0jwknjj04j4rbw51zkgxmzh0000gn/T/smolvlm_highlights_b1pjzb7x/segment_022_594.0-624.0s.mp4",
+      "response": "Exercise 1 - bench press, exercise 2 - leg press, exercise 3 - pull-ups, exercise 4 - shoulder press, exercise 5 - leg extension, exercise 6 - dumbbell rows, exercise 7 - leg extensions, exercise 8 - push-ups, exercise 9 - tricep extensions, exercise 10 - shoulder pressing, exercise 11 - bicep curls, exercise 12 - chest press, exercise 13 - leg extensions",
+      "exercise_name": "Push",
+      "movement_phase": "Unknown Phase",
+      "is_transition": false,
+      "analysis_success": true,
+      "start_timestamp": 594.0,
+      "end_timestamp": 624.0,
+      "duration": 30.0,
+      "timestamp_formatted": "09:54 - 10:24"
+    },
+    {
+      "segment_path": "/var/folders/bs/n0jwknjj04j4rbw51zkgxmzh0000gn/T/smolvlm_highlights_b1pjzb7x/segment_023_621.0-651.0s.mp4",
+      "response": "Squats, deadlifts, bench press, leg press, and overhead press.",
+      "exercise_name": "Bench",
+      "movement_phase": "Unknown Phase",
+      "is_transition": false,
+      "analysis_success": true,
+      "start_timestamp": 621.0,
+      "end_timestamp": 651.0,
+      "duration": 30.0,
+      "timestamp_formatted": "10:21 - 10:51"
+    },
+    {
+      "segment_path": "/var/folders/bs/n0jwknjj04j4rbw51zkgxmzh0000gn/T/smolvlm_highlights_b1pjzb7x/segment_024_648.0-678.0s.mp4",
+      "response": "Deadlift, leg press, bench press, row, and squat.",
+      "exercise_name": "Bench",
+      "movement_phase": "Unknown Phase",
+      "is_transition": false,
+      "analysis_success": true,
+      "start_timestamp": 648.0,
+      "end_timestamp": 678.0,
+      "duration": 30.0,
+      "timestamp_formatted": "10:48 - 11:18"
+    },
+    {
+      "segment_path": "/var/folders/bs/n0jwknjj04j4rbw51zkgxmzh0000gn/T/smolvlm_highlights_b1pjzb7x/segment_025_675.0-705.0s.mp4",
+      "response": "Calf raises, tricep extensions, pull-ups, squats, deadlifts, and bench press.",
+      "exercise_name": "Bench",
+      "movement_phase": "Unknown Phase",
+      "is_transition": false,
+      "analysis_success": true,
+      "start_timestamp": 675.0,
+      "end_timestamp": 705.0,
+      "duration": 30.0,
+      "timestamp_formatted": "11:15 - 11:45"
+    },
+    {
+      "segment_path": "/var/folders/bs/n0jwknjj04j4rbw51zkgxmzh0000gn/T/smolvlm_highlights_b1pjzb7x/segment_026_702.0-732.0s.mp4",
+      "response": "Squat, deadlift, bench press, seated press, and assisted pull-up.",
+      "exercise_name": "Bench",
+      "movement_phase": "Unknown Phase",
+      "is_transition": false,
+      "analysis_success": true,
+      "start_timestamp": 702.0,
+      "end_timestamp": 732.0,
+      "duration": 30.0,
+      "timestamp_formatted": "11:42 - 12:12"
+    },
+    {
+      "segment_path": "/var/folders/bs/n0jwknjj04j4rbw51zkgxmzh0000gn/T/smolvlm_highlights_b1pjzb7x/segment_027_729.0-759.0s.mp4",
+      "response": "Bench press, deadlift, squat, pull-up, and bench press.",
+      "exercise_name": "Bench",
+      "movement_phase": "Unknown Phase",
+      "is_transition": false,
+      "analysis_success": true,
+      "start_timestamp": 729.0,
+      "end_timestamp": 759.0,
+      "duration": 30.0,
+      "timestamp_formatted": "12:09 - 12:39"
+    },
+    {
+      "segment_path": "/var/folders/bs/n0jwknjj04j4rbw51zkgxmzh0000gn/T/smolvlm_highlights_b1pjzb7x/segment_028_756.0-786.0s.mp4",
+      "response": "The first exercise is a side plank, followed by a burpee, the second exercise is a pull-up, the third exercise is a front plank, the fourth exercise is a lateral raise, and the fifth exercise is a squat.",
+      "exercise_name": "Squat",
+      "movement_phase": "Unknown Phase",
+      "is_transition": false,
+      "analysis_success": true,
+      "start_timestamp": 756.0,
+      "end_timestamp": 786.0,
+      "duration": 30.0,
+      "timestamp_formatted": "12:36 - 13:06"
+    },
+    {
+      "segment_path": "/var/folders/bs/n0jwknjj04j4rbw51zkgxmzh0000gn/T/smolvlm_highlights_b1pjzb7x/segment_029_783.0-813.0s.mp4",
+      "response": "Squat, bench press, pull-up bar, chest press, deadlift, and pull-up bar.",
+      "exercise_name": "Bench",
+      "movement_phase": "Unknown Phase",
+      "is_transition": false,
+      "analysis_success": true,
+      "start_timestamp": 783.0,
+      "end_timestamp": 813.0,
+      "duration": 30.0,
+      "timestamp_formatted": "13:03 - 13:33"
+    },
+    {
+      "segment_path": "/var/folders/bs/n0jwknjj04j4rbw51zkgxmzh0000gn/T/smolvlm_highlights_b1pjzb7x/segment_030_810.0-840.0s.mp4",
+      "response": "Detach the quad, side leg lift, chest press, side plank, and overhead tricep press.",
+      "exercise_name": "Plank",
+      "movement_phase": "Unknown Phase",
+      "is_transition": false,
+      "analysis_success": true,
+      "start_timestamp": 810.0,
+      "end_timestamp": 840.0,
+      "duration": 30.0,
+      "timestamp_formatted": "13:30 - 14:00"
+    },
+    {
+      "segment_path": "/var/folders/bs/n0jwknjj04j4rbw51zkgxmzh0000gn/T/smolvlm_highlights_b1pjzb7x/segment_031_837.0-867.0s.mp4",
+      "response": "Squat, push-ups, crunches, planks, and push-ups",
+      "exercise_name": "Push",
+      "movement_phase": "Unknown Phase",
+      "is_transition": false,
+      "analysis_success": true,
+      "start_timestamp": 837.0,
+      "end_timestamp": 867.0,
+      "duration": 30.0,
+      "timestamp_formatted": "13:57 - 14:27"
+    },
+    {
+      "segment_path": "/var/folders/bs/n0jwknjj04j4rbw51zkgxmzh0000gn/T/smolvlm_highlights_b1pjzb7x/segment_032_864.0-894.0s.mp4",
+      "response": "Squat, deadlift, bench press, leg press, and pull-up.",
+      "exercise_name": "Bench",
+      "movement_phase": "Unknown Phase",
+      "is_transition": false,
+      "analysis_success": true,
+      "start_timestamp": 864.0,
+      "end_timestamp": 894.0,
+      "duration": 30.0,
+      "timestamp_formatted": "14:24 - 14:54"
+    },
+    {
+      "segment_path": "/var/folders/bs/n0jwknjj04j4rbw51zkgxmzh0000gn/T/smolvlm_highlights_b1pjzb7x/segment_033_891.0-921.0s.mp4",
+      "response": "Chest exercise, shoulder press, tricep pushdown, leg press, and overhead press.",
+      "exercise_name": "Press",
+      "movement_phase": "Unknown Phase",
+      "is_transition": false,
+      "analysis_success": true,
+      "start_timestamp": 891.0,
+      "end_timestamp": 921.0,
+      "duration": 30.0,
+      "timestamp_formatted": "14:51 - 15:21"
+    },
+    {
+      "segment_path": "/var/folders/bs/n0jwknjj04j4rbw51zkgxmzh0000gn/T/smolvlm_highlights_b1pjzb7x/segment_034_918.0-948.0s.mp4",
+      "response": "Bench press, squats, pull-ups, lat pulldowns, bench press.",
+      "exercise_name": "Bench",
+      "movement_phase": "Unknown Phase",
+      "is_transition": false,
+      "analysis_success": true,
+      "start_timestamp": 918.0,
+      "end_timestamp": 948.0,
+      "duration": 30.0,
+      "timestamp_formatted": "15:18 - 15:48"
+    },
+    {
+      "segment_path": "/var/folders/bs/n0jwknjj04j4rbw51zkgxmzh0000gn/T/smolvlm_highlights_b1pjzb7x/segment_035_945.0-975.0s.mp4",
+      "response": "Plank, Dumbbell Squat, Mountain Climber, Tricep Pushdown, Hammer Curl.",
+      "exercise_name": "Squat",
+      "movement_phase": "Unknown Phase",
+      "is_transition": false,
+      "analysis_success": true,
+      "start_timestamp": 945.0,
+      "end_timestamp": 975.0,
+      "duration": 30.0,
+      "timestamp_formatted": "15:45 - 16:15"
+    },
+    {
+      "segment_path": "/var/folders/bs/n0jwknjj04j4rbw51zkgxmzh0000gn/T/smolvlm_highlights_b1pjzb7x/segment_036_972.0-1002.0s.mp4",
+      "response": "Side leg lift, leg press, chest press, tricep pushdown, and deadlift.",
+      "exercise_name": "Deadlift",
+      "movement_phase": "Unknown Phase",
+      "is_transition": false,
+      "analysis_success": true,
+      "start_timestamp": 972.0,
+      "end_timestamp": 1002.0,
+      "duration": 30.0,
+      "timestamp_formatted": "16:12 - 16:42"
+    },
+    {
+      "segment_path": "/var/folders/bs/n0jwknjj04j4rbw51zkgxmzh0000gn/T/smolvlm_highlights_b1pjzb7x/segment_037_999.0-1029.0s.mp4",
+      "response": "Squat, Bench Press, Leg Press, Cable Fly, Bent-Over Row",
+      "exercise_name": "Bench",
+      "movement_phase": "Unknown Phase",
+      "is_transition": false,
+      "analysis_success": true,
+      "start_timestamp": 999.0,
+      "end_timestamp": 1029.0,
+      "duration": 30.0,
+      "timestamp_formatted": "16:39 - 17:09"
+    },
+    {
+      "segment_path": "/var/folders/bs/n0jwknjj04j4rbw51zkgxmzh0000gn/T/smolvlm_highlights_b1pjzb7x/segment_038_1026.0-1056.0s.mp4",
+      "response": "Squat, deadlift, chest press, tricep extension, tricep extension, tricep extensions.",
+      "exercise_name": "Squat",
+      "movement_phase": "Unknown Phase",
+      "is_transition": false,
+      "analysis_success": true,
+      "start_timestamp": 1026.0,
+      "end_timestamp": 1056.0,
+      "duration": 30.0,
+      "timestamp_formatted": "17:06 - 17:36"
+    },
+    {
+      "segment_path": "/var/folders/bs/n0jwknjj04j4rbw51zkgxmzh0000gn/T/smolvlm_highlights_b1pjzb7x/segment_039_1053.0-1083.0s.mp4",
+      "response": "Planks, leg raises, shoulder press, chest press, and squat.",
+      "exercise_name": "Squat",
+      "movement_phase": "Unknown Phase",
+      "is_transition": false,
+      "analysis_success": true,
+      "start_timestamp": 1053.0,
+      "end_timestamp": 1083.0,
+      "duration": 30.0,
+      "timestamp_formatted": "17:33 - 18:03"
+    },
+    {
+      "segment_path": "/var/folders/bs/n0jwknjj04j4rbw51zkgxmzh0000gn/T/smolvlm_highlights_b1pjzb7x/segment_040_1080.0-1110.0s.mp4",
+      "response": "Plank, bench press, leg press, leg press, and overhead press.",
+      "exercise_name": "Bench",
+      "movement_phase": "Unknown Phase",
+      "is_transition": false,
+      "analysis_success": true,
+      "start_timestamp": 1080.0,
+      "end_timestamp": 1110.0,
+      "duration": 30.0,
+      "timestamp_formatted": "18:00 - 18:30"
+    },
+    {
+      "segment_path": "/var/folders/bs/n0jwknjj04j4rbw51zkgxmzh0000gn/T/smolvlm_highlights_b1pjzb7x/segment_041_1107.0-1128.2s.mp4",
+      "response": "Bicep curls, seated row, chest press, bench press, deadlift.",
+      "exercise_name": "Bench",
+      "movement_phase": "Unknown Phase",
+      "is_transition": false,
+      "analysis_success": true,
+      "start_timestamp": 1107.0,
+      "end_timestamp": 1128.2,
+      "duration": 21.200000000000045,
+      "timestamp_formatted": "18:27 - 18:48"
+    }
+  ],
+  "exercise_steps": [
+    {
+      "exercise_name": "Bench",
+      "start_timestamp": 0.0,
+      "end_timestamp": 30.0,
+      "duration": 30.0,
+      "timestamp_formatted": "00:00 - 00:30",
+      "description": "Bench exercise"
+    },
+    {
+      "exercise_name": "Press",
+      "start_timestamp": 27.0,
+      "end_timestamp": 57.0,
+      "duration": 30.0,
+      "timestamp_formatted": "00:27 - 00:57",
+      "description": "Press exercise"
+    },
+    {
+      "exercise_name": "Bench",
+      "start_timestamp": 54.0,
+      "end_timestamp": 84.0,
+      "duration": 30.0,
+      "timestamp_formatted": "00:54 - 01:24",
+      "description": "Bench exercise"
+    },
+    {
+      "exercise_name": "Fly",
+      "start_timestamp": 81.0,
+      "end_timestamp": 111.0,
+      "duration": 30.0,
+      "timestamp_formatted": "01:21 - 01:51",
+      "description": "Fly exercise"
+    },
+    {
+      "exercise_name": "Bench",
+      "start_timestamp": 108.0,
+      "end_timestamp": 138.0,
+      "duration": 30.0,
+      "timestamp_formatted": "01:48 - 02:18",
+      "description": "Bench exercise"
+    },
+    {
+      "exercise_name": "Curl",
+      "start_timestamp": 135.0,
+      "end_timestamp": 165.0,
+      "duration": 30.0,
+      "timestamp_formatted": "02:15 - 02:45",
+      "description": "Curl exercise"
+    },
+    {
+      "exercise_name": "Unknown Exercise",
+      "start_timestamp": 162.0,
+      "end_timestamp": 192.0,
+      "duration": 30.0,
+      "timestamp_formatted": "02:42 - 03:12",
+      "description": "Unknown Exercise exercise"
+    },
+    {
+      "exercise_name": "Curl",
+      "start_timestamp": 189.0,
+      "end_timestamp": 219.0,
+      "duration": 30.0,
+      "timestamp_formatted": "03:09 - 03:39",
+      "description": "Curl exercise"
+    },
+    {
+      "exercise_name": "Bench",
+      "start_timestamp": 216.0,
+      "end_timestamp": 327.0,
+      "duration": 111.0,
+      "timestamp_formatted": "03:36 - 05:27",
+      "description": "Bench exercise"
+    },
+    {
+      "exercise_name": "Curl",
+      "start_timestamp": 324.0,
+      "end_timestamp": 354.0,
+      "duration": 30.0,
+      "timestamp_formatted": "05:24 - 05:54",
+      "description": "Curl exercise"
+    },
+    {
+      "exercise_name": "Bench",
+      "start_timestamp": 351.0,
+      "end_timestamp": 462.0,
+      "duration": 111.0,
+      "timestamp_formatted": "05:51 - 07:42",
+      "description": "Bench exercise"
+    },
+    {
+      "exercise_name": "Curl",
+      "start_timestamp": 459.0,
+      "end_timestamp": 489.0,
+      "duration": 30.0,
+      "timestamp_formatted": "07:39 - 08:09",
+      "description": "Curl exercise"
+    },
+    {
+      "exercise_name": "Bench",
+      "start_timestamp": 486.0,
+      "end_timestamp": 516.0,
+      "duration": 30.0,
+      "timestamp_formatted": "08:06 - 08:36",
+      "description": "Bench exercise"
+    },
+    {
+      "exercise_name": "Deadlift",
+      "start_timestamp": 513.0,
+      "end_timestamp": 543.0,
+      "duration": 30.0,
+      "timestamp_formatted": "08:33 - 09:03",
+      "description": "Deadlift exercise"
+    },
+    {
+      "exercise_name": "Bench",
+      "start_timestamp": 540.0,
+      "end_timestamp": 597.0,
+      "duration": 57.0,
+      "timestamp_formatted": "09:00 - 09:57",
+      "description": "Bench exercise"
+    },
+    {
+      "exercise_name": "Push",
+      "start_timestamp": 594.0,
+      "end_timestamp": 624.0,
+      "duration": 30.0,
+      "timestamp_formatted": "09:54 - 10:24",
+      "description": "Push exercise"
+    },
+    {
+      "exercise_name": "Bench",
+      "start_timestamp": 621.0,
+      "end_timestamp": 759.0,
+      "duration": 138.0,
+      "timestamp_formatted": "10:21 - 12:39",
+      "description": "Bench exercise"
+    },
+    {
+      "exercise_name": "Squat",
+      "start_timestamp": 756.0,
+      "end_timestamp": 786.0,
+      "duration": 30.0,
+      "timestamp_formatted": "12:36 - 13:06",
+      "description": "Squat exercise"
+    },
+    {
+      "exercise_name": "Bench",
+      "start_timestamp": 783.0,
+      "end_timestamp": 813.0,
+      "duration": 30.0,
+      "timestamp_formatted": "13:03 - 13:33",
+      "description": "Bench exercise"
+    },
+    {
+      "exercise_name": "Plank",
+      "start_timestamp": 810.0,
+      "end_timestamp": 840.0,
+      "duration": 30.0,
+      "timestamp_formatted": "13:30 - 14:00",
+      "description": "Plank exercise"
+    },
+    {
+      "exercise_name": "Push",
+      "start_timestamp": 837.0,
+      "end_timestamp": 867.0,
+      "duration": 30.0,
+      "timestamp_formatted": "13:57 - 14:27",
+      "description": "Push exercise"
+    },
+    {
+      "exercise_name": "Bench",
+      "start_timestamp": 864.0,
+      "end_timestamp": 894.0,
+      "duration": 30.0,
+      "timestamp_formatted": "14:24 - 14:54",
+      "description": "Bench exercise"
+    },
+    {
+      "exercise_name": "Press",
+      "start_timestamp": 891.0,
+      "end_timestamp": 921.0,
+      "duration": 30.0,
+      "timestamp_formatted": "14:51 - 15:21",
+      "description": "Press exercise"
+    },
+    {
+      "exercise_name": "Bench",
+      "start_timestamp": 918.0,
+      "end_timestamp": 948.0,
+      "duration": 30.0,
+      "timestamp_formatted": "15:18 - 15:48",
+      "description": "Bench exercise"
+    },
+    {
+      "exercise_name": "Squat",
+      "start_timestamp": 945.0,
+      "end_timestamp": 975.0,
+      "duration": 30.0,
+      "timestamp_formatted": "15:45 - 16:15",
+      "description": "Squat exercise"
+    },
+    {
+      "exercise_name": "Deadlift",
+      "start_timestamp": 972.0,
+      "end_timestamp": 1002.0,
+      "duration": 30.0,
+      "timestamp_formatted": "16:12 - 16:42",
+      "description": "Deadlift exercise"
+    },
+    {
+      "exercise_name": "Bench",
+      "start_timestamp": 999.0,
+      "end_timestamp": 1029.0,
+      "duration": 30.0,
+      "timestamp_formatted": "16:39 - 17:09",
+      "description": "Bench exercise"
+    },
+    {
+      "exercise_name": "Squat",
+      "start_timestamp": 1026.0,
+      "end_timestamp": 1083.0,
+      "duration": 57.0,
+      "timestamp_formatted": "17:06 - 18:03",
+      "description": "Squat exercise"
+    },
+    {
+      "exercise_name": "Bench",
+      "start_timestamp": 1080.0,
+      "end_timestamp": 1128.2,
+      "duration": 48.200000000000045,
+      "timestamp_formatted": "18:00 - 18:48",
+      "description": "Bench exercise"
+    }
+  ],
+  "summary": {
+    "total_exercises_identified": 29,
+    "video_duration_formatted": "18:48",
+    "analysis_coverage": "42 segments"
+  }
+}
