@@ -1,0 +1,26 @@
+{
+  "video_path": "/Users/jackmodesett/SmolVLM2/test_video.mp4",
+  "processing_time_seconds": 4.513149261474609,
+  "total_segments_analyzed": 1,
+  "highlights_found": 1,
+  "settings": {
+    "min_significance": 4,
+    "max_highlights": 5
+  },
+  "highlights": [
+    {
+      "segment_path": "/var/folders/bs/n0jwknjj04j4rbw51zkgxmzh0000gn/T/smolvlm_highlights_iu3w_skr/segment_000_0.0-3.0s.mp4",
+      "response": "The video displays a sequence of frames where the game's interface changes from a green circle to a blue square and then back to the square. The game's interface then changes to red, where the circle moves to the right and the square appears on the left side of the screen. The remaining frames show the square, the red rectangle, and the green circle on the screen.",
+      "significance_score": 5,
+      "analysis_success": true
+    }
+  ],
+  "all_analyses": [
+    {
+      "segment_path": "/var/folders/bs/n0jwknjj04j4rbw51zkgxmzh0000gn/T/smolvlm_highlights_iu3w_skr/segment_000_0.0-3.0s.mp4",
+      "response": "The video displays a sequence of frames where the game's interface changes from a green circle to a blue square and then back to the square. The game's interface then changes to red, where the circle moves to the right and the square appears on the left side of the screen. The remaining frames show the square, the red rectangle, and the green circle on the screen.",
+      "significance_score": 5,
+      "analysis_success": true
+    }
+  ]
+}
