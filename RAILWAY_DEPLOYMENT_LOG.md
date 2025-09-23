@@ -102,3 +102,30 @@ The turnkey system was built for **Apple Silicon + MLX** but Railway uses **Linu
 - ✅ Maintain video analysis functionality  
 - ✅ Preserve Dojo app integration
 - ✅ No architectural changes to core system
+
+---
+
+## Fix Attempt #3 - Python 3.12 Compatibility (2025-09-23 18:50)
+
+### Resolution Applied:
+```diff
+- numpy==1.24.3        # No Python 3.12 wheels, requires distutils
++ numpy==1.26.4        # Has pre-built wheels for Python 3.12
+
+- requests==2.31.0     # Older version  
++ requests==2.32.3     # Latest stable with Python 3.12 support
+
+- accelerate==0.24.1   # Older version
++ accelerate==0.35.0   # Updated with Python 3.12 compatibility
+
+- av==11.0.0           # Older video processing library
++ av==12.3.0           # Updated version
+```
+
+### Technical Rationale:
+- All updated packages have **pre-built wheels** for Python 3.12
+- No source compilation required = no distutils dependency  
+- Maintains backward compatibility with existing code
+- Minimal version bumps to reduce breaking changes
+
+**Status**: Deployed commit `78309f8` - awaiting Railway build results
