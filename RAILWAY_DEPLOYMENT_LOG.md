@@ -129,3 +129,31 @@ The turnkey system was built for **Apple Silicon + MLX** but Railway uses **Linu
 - Minimal version bumps to reduce breaking changes
 
 **Status**: Deployed commit `78309f8` - awaiting Railway build results
+
+---
+
+## Failure #4 - Accelerate Version Not Found (2025-09-23 18:51)
+
+### Error:
+```
+ERROR: Could not find a version that satisfies the requirement accelerate==0.35.0
+ERROR: No matching distribution found for accelerate==0.35.0
+```
+
+### Root Cause:
+- `accelerate==0.35.0` version doesn't exist on PyPI
+- Available versions: 0.0.1 through 1.10.1 (latest)
+- Version 0.35.0 was incorrectly specified - doesn't exist in release history
+
+### Available Versions Analysis:
+- **Pattern**: 0.x.x versions, then jump to 1.x.x starting at 1.0.0rc0
+- **Latest Stable**: 1.10.1 
+- **Issue**: Specified non-existent 0.35.0 version
+
+### Technical Details:
+Railway shows all available accelerate versions:
+`0.0.1, 0.1.0, ... 0.34.2, 1.0.0rc0, ... 1.10.1`
+Version 0.35.0 is missing from this sequence - package jumped from 0.34.2 to 1.0.0rc0
+
+### Resolution Required:
+Use existing version from available list: either 0.34.2 (last stable 0.x) or 1.10.1 (latest stable)

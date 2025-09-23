@@ -8,5 +8,5 @@ transformers==4.44.0
 requests==2.32.3
 numpy==1.26.4
 av==12.3.0
-accelerate==0.35.0
+accelerate==1.10.1
 sentencepiece==0.1.99
