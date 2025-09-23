@@ -14,8 +14,8 @@ import traceback
 from pathlib import Path
 import uvicorn
 
-# Import our video analysis system
-from video_highlight_generator import SmolVLMHighlightGenerator
+# Import Railway-compatible video analysis system
+from railway_video_generator import RailwayVideoGenerator
 
 app = FastAPI(
     title="SmolVLM2 Video Analysis API",
@@ -40,8 +40,8 @@ async def startup_event():
     """Initialize the video analysis system on startup."""
     global generator
     try:
-        # Use CPU/transformers for Railway deployment (MLX won't work on Railway)
-        generator = SmolVLMHighlightGenerator(
+        # Use transformers for Railway deployment (no MLX on Linux)
+        generator = RailwayVideoGenerator(
             model_name="HuggingFaceTB/SmolVLM2-500M-Video-Instruct"
         )
         print("✅ SmolVLM2 Video Analysis API initialized successfully")
