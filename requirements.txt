@@ -2,9 +2,9 @@ fastapi==0.104.1
 uvicorn==0.24.0
 python-multipart==0.0.6
 Pillow==10.1.0
-opencv-python-headless==4.8.1.78
-torch==2.1.1
-transformers==4.45.0
+opencv-python-headless==4.10.0.84
+torch==2.4.1
+transformers==4.44.0
 requests==2.31.0
 numpy==1.24.3
 av==11.0.0
