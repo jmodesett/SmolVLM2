@@ -157,3 +157,44 @@ Version 0.35.0 is missing from this sequence - package jumped from 0.34.2 to 1.0
 
 ### Resolution Required:
 Use existing version from available list: either 0.34.2 (last stable 0.x) or 1.10.1 (latest stable)
+
+---
+
+## Fix Attempt #4 - Accelerate Version Correction (2025-09-23 18:56)
+
+### Resolution Applied:
+```diff
+- accelerate==0.35.0   # Non-existent version
++ accelerate==1.10.1   # Latest stable version (exists)
+```
+
+**Status**: Deployed commit `0c755a3` - Fixed invalid accelerate version
+
+---
+
+## Failure #5 - SentencePiece Build Error (2025-09-23 18:57)
+
+### Error:
+```
+Building wheel for sentencepiece (pyproject.toml): finished with status 'error'
+Package sentencepiece was not found in the pkg-config search path.
+./build_bundled.sh: 21: cmake: not found
+./build_bundled.sh: 22: cmake: not found
+subprocess.CalledProcessError: Command '['./build_bundled.sh', '0.1.99']' returned non-zero exit status 127.
+ERROR: Failed building wheel for sentencepiece
+```
+
+### Root Cause:
+- `sentencepiece==0.1.99` is very old (needs to build from source)
+- Requires `cmake` and `pkg-config` which aren't available in Railway environment
+- No pre-built wheels for Python 3.12 at this old version
+- Build script fails without required system dependencies
+
+### Technical Details:
+- sentencepiece 0.1.99 dates from early 2020
+- Python 3.12 was released in October 2023  
+- Newer versions have pre-built wheels for Python 3.12
+- Current stable version: 0.2.0 (has pre-built wheels)
+
+### Resolution Required:
+Update to newer sentencepiece version with pre-built wheels for Python 3.12
