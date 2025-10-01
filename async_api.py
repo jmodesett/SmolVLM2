@@ -12,7 +12,7 @@ import asyncio
 from typing import Optional, Dict, Any
 import uuid
 from session_manager import SessionManager
-from task_manager import TaskManager
+from task_manager import BackgroundTaskManager as TaskManager
 from railway_video_generator import RailwayVideoGenerator
 
 # Create router for async API endpoints
@@ -77,11 +77,14 @@ async def upload_video(
         }
         
         # Create session
-        session_manager.create_session(
-            session_id=session_id,
+        session_id = session_manager.create_session(
             video_path=video_path,
-            video_info=video_info,
-            description=description
+            analysis_type="upload",
+            params={
+                "video_info": video_info,
+                "description": description,
+                "filename": video.filename
+            }
         )
         
         return {
@@ -128,7 +131,7 @@ async def start_analysis(
     if not session:
         raise HTTPException(status_code=404, detail="Session not found")
     
-    if session["status"] != "uploaded":
+    if session["status"] != "queued":
         raise HTTPException(status_code=400, detail="Session not in uploadable state")
     
     # Validate analysis type
@@ -158,7 +161,7 @@ async def start_analysis(
     )
     
     # Update session status
-    session_manager.update_session(session_id, {"status": "analyzing", "task_id": task_id})
+    session_manager.update_session(session_id, status="analyzing", task_id=task_id)
     
     # Start background analysis
     asyncio.create_task(run_analysis_task(task_id, task_params))
@@ -193,7 +196,7 @@ async def get_progress(session_id: str):
     response = {
         "session_id": session_id,
         "status": session["status"],
-        "video_info": session["video_info"]
+        "video_info": session["params"].get("video_info", {})
     }
     
     # If analyzing, get task progress
@@ -245,7 +248,7 @@ async def get_results(session_id: str):
     
     return {
         "session_id": session_id,
-        "video_info": session["video_info"],
+        "video_info": session["params"].get("video_info", {}),
         "analysis_complete": True,
         "results": session["results"]
     }
@@ -331,10 +334,7 @@ async def run_analysis_task(task_id: str, params: Dict[str, Any]):
         })
         
         # Update session
-        session_manager.update_session(task["session_id"], {
-            "status": "completed",
-            "results": results
-        })
+        session_manager.update_session(task["session_id"], status="completed", results=results)
         
     except Exception as e:
         # Handle task failure
@@ -347,10 +347,7 @@ async def run_analysis_task(task_id: str, params: Dict[str, Any]):
         })
         
         task = task_manager.get_task(task_id)
-        session_manager.update_session(task["session_id"], {
-            "status": "failed",
-            "error": error_msg
-        })
+        session_manager.update_session(task["session_id"], status="failed", error=error_msg)
 
 async def run_highlights_analysis(params: Dict[str, Any], progress_callback):
     """Run highlights analysis with progress tracking."""
